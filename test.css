@@ -1,0 +1,138 @@
+body {
+    background: rgb(156, 175, 214);
+}
+
+.div0 {
+    background: url(business.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.imga {
+    z-index: 1;
+    position: absolute;
+}
+
+.arofle ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 130px;
+    margin-left: -35px;
+    color: #2929C4;
+    height: 155px;
+    margin-top: 40px;
+    width: 1267px;
+}
+
+.arofle ul li:hover {
+    color: #F9F8F4;
+}
+
+.menu ul {
+    margin-top: -20px;
+    margin-left: -80px;
+    display: inline-flex;
+    list-style: none;
+    font-size: 40px;
+    color: #1D16AA;
+    position: fixed;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    top: 10px;
+    background: rgb(156, 175, 214);
+    width: 1335px;
+    height: 70px;
+}
+
+.menu ul li {
+    width: 150px;
+    margin: auto;
+    padding: 15px;
+}
+
+.menu ul li:hover {
+    color: #F7F7F9;
+    background: #139e1f;
+    transition: 1s;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.sous {
+    display: none;
+}
+
+sous lu li {
+    display: inline-block;
+}
+
+.menu ul li:hover .sous {
+    display: inline-block;
+    position: absolute;
+    margin-left: -240px;
+}
+
+.menu ul li:hover .sous ul {
+    display: inline-block;
+    border-radius: 40px;
+    width: 210px;
+    margin-top: 53px;
+    margin-left: 40px;
+    text-align: center;
+    height: 250px;
+    width: 170px;
+    background: transparent;
+}
+
+.sous ul li {
+    color: teal;
+}
+
+.menu ul li:hover .sous ul li {
+    background: rgba(239, 240, 241, 0.404);
+    border-radius: 80px;
+    color: white;
+    background: rgba(21, 131, 131, 0.623);
+}
+
+.div1 {
+    background: url(macbook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.div2 {
+    background: url(coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.div3 {
+    background: url(books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.div4 {
+    background: url(workplace-pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.div5 {
+    background: url(table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 2px;
+}
